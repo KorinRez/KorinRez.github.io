@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Alef', sans-serif;
+}
+
+body{
+    height: 100%;
+    background-color:rgba(137, 166, 225, 0.3);
+}
+
+/* תפריט */
+.navbar-default{
+	height: 40px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+}
+
+.navbar-inverse{
+	background-color: rgb(137, 166, 225);
+	border-color: rgb(137, 166, 225);
+	padding: 0px;
+    margin: 0px;
+    box-shadow: 0 0 7px #5a5a5a;
+}
+
+
+.navbar-inverse .navbar-brand, .navbar-inverse a{
+      color: black;
+      padding-left: 40px;
+    }
+
+.navbar-inverse .navbar-nav>li>a {
+      color: black;
+	}
+
+
+	/* טקסט לצד ימין  */
+.dropdown-menu>li>a{
+	text-align: right;
+}
+/* נגמר תפריט */
+
+.jumbotron{
+	background-color: rgba(137, 166, 225, 0.02);
+	width: 70%;
+	margin: 0 auto;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+    background-color:whitesmoke;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio]{
+    position: relative;
+    margin-left: 5px;
+}
+
+/* .button, input, select, textarea{
+	width: 100%;
+} */
+
+/* .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio]  */
